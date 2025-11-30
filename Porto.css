@@ -1,0 +1,213 @@
+body {
+    background-color: azure;
+    flex-wrap: wrap;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+    color: white;
+    align-items: center;
+    padding: 10px 20px;
+}
+ul {
+    display: flex;
+    gap : 30px;
+}
+.li {
+    list-style: none;
+}
+* {
+    margin: 0;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button {
+    Background-color: white;
+    color: lightcoral;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+}
+section {
+    display: flex;
+    gap: 150px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+#infos {
+    background-color: lightcoral;
+    color: white;
+}
+.Projets {
+    background-color: black;
+    color: white;
+}
+.description, .Image {
+ flex: 1;
+  
+}
+.description {
+ position: relative;
+ padding: 0px 100px;
+}
+   
+
+.para {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.ImageHome {
+    border-radius: 35px;
+}
+.Image {
+    padding: 0px 100px;
+   position: relative;  
+}
+.Apropos{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    padding: 60px 0px;
+}
+.Text {
+padding: 30px 50px;
+}
+h2 {
+    font-size: 30px;
+}
+.Listing {
+    display: flex;
+   justify-content: center;
+}
+.Number {
+    padding: 0px 80px;
+    color: lightcoral;
+    font-size: 70px;
+}
+.aNumber {
+padding: 0px 75px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.Dpartie {
+    background-color: white;
+    padding: 90px 0px;
+}
+.dernières {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px 50px;
+}
+.imd {
+    padding: 20px 0px;
+    
+}
+.icone {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    color: lightcoral;
+}
+.services {
+    display: flex;
+}
+.servi {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 50px;
+    
+}
+.par {
+    padding: 10px 0px;
+}
+.cv {
+    color: lightcoral;
+}
+.Compétences {
+text-align: center;
+}
+.Compt {
+    padding: 20px 0px;
+    color: lightcoral;
+}
+.Compt2 {
+   font-size:medium;
+}
+.Sers {
+    text-align: center;
+}
+.Vs {
+   padding: 20px 300px;
+   font-size: medium;
+}
+.Propos {
+    font-size: 50px;
+}
+ol {
+    display: flex;
+}
+.Compte {
+    display:flex;
+}
+.Comptes {
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;  
+}
+.hl3 {
+    color: lightcoral;
+}
+.Partie3 {
+    background-color: grey;
+    padding: 30px 0px;
+    color: white;
+    text-align: center;
+}
+.Art3 {
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.ArtP {
+    padding: 0px 20px;
+}
+.Part3 {
+    padding: 10px 0px;
+}
+.Part03 {
+    padding: 10px 300px;
+}
+.Partie4 {
+    background-color: lightcoral;
+    padding: 20px 0px;
+}
+.LesInc {
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+.Itext {
+color: white;
+font-weight: bold;
+text-align: center;
+padding: 10px 0px;
+}
