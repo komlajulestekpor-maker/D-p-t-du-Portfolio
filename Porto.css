@@ -211,3 +211,27 @@ font-weight: bold;
 text-align: center;
 padding: 10px 0px;
 }
+.btn-download {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-download:hover {
+    background-color: #0056b3;
+}
+.Image {
+    overflow: hidden; /* évite que l’image déborde */
+    display: inline-block;
+}
+
+.ImageHome {
+    transition: transform 0.4s ease;
+}
+
+.ImageHome:hover {
+    transform: scale(1.2); /* zoom à 120% */
+}
